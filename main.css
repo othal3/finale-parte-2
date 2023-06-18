@@ -1,0 +1,100 @@
+#searchBox{
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 10px 10px 32px -15px rgba(0,0,0,0.65);
+}
+
+#result{
+    max-height: 0px;
+    background-color: white;
+    margin-top: 1em;
+    width: 100%;
+    box-shadow: 10px 10px 32px -15px rgba(0,0,0,0.65);
+    border-radius: 0.5em;
+    text-align: center;
+    color: #55555A;
+    overflow: hidden;
+    transition: 1s;
+    transition-property: max-height;
+}
+
+#result p{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#inserzioni{
+    margin: 0;
+    padding: 1em;
+}
+
+#list{
+    margin: 0;
+    padding: 1em;
+}
+
+.text{
+    pointer-events: none;
+}
+
+.none{
+    display: none;
+}
+
+.down{
+    max-height: 300px !important;
+}
+
+.up{
+    max-height: 0px;
+}
+
+.padding{
+    padding: 0 !important;
+}
+
+body{
+    background-image: linear-gradient(to left, #4facfe 0%, #00f2fe 100%);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main div{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+    margin: auto;
+}
+
+main input, button{
+    border: 0px;
+    outline: none;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 9px;
+}
+
+main button{
+    cursor: pointer;
+}
+
+main input{
+    color: #55555A;
+    border-right: 1px solid rgba(85, 85, 85, 0.5);
+}
+
+h1{
+    font-size: 3em;
+    color: #55555A;
+}
+
+ul{
+    list-style: none;
+    font-size: 1.2em;
+    color: #3b3b3b;
+}
