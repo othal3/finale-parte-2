@@ -12,8 +12,8 @@
         <div>
             <h1>JOB FINDER</h1>
             <section id="searchBox">
-                <input type="text" id="location" placeholder="Location">
-                <input type="text" id="titolo" placeholder="Title">
+                <input onkeypress="if(event.keyCode === 13) search()" type="text" id="location" placeholder="Location">
+                <input onkeypress="if(event.keyCode === 13) search()" type="text" id="titolo" placeholder="Title">
                 <button id="search" onclick="search()">
                     <i class="bi bi-search"></i>
                 </button>
