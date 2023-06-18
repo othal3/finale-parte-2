@@ -122,7 +122,7 @@ function search() {
         list.appendChild(li);
         cont += 1;
       }
-      inserzioni.innerText = `Insrizioni trovate: ${cont}`;
+      inserzioni.innerText = `Inserizioni trovate: ${cont}`;
     }
     list.className = "";
 
