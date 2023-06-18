@@ -46,7 +46,8 @@
 }
 
 .down{
-    max-height: 300px !important;
+    max-height: 1000px !important;
+    margin-bottom: 10vh;
 }
 
 .up{

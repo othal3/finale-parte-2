@@ -107,7 +107,7 @@ function search() {
   }
   //controllo se campi sono vuoti
   if (titleSearch === "" && locationSearch === "") {
-    inserzioni.innerText = `Mi spiace ho tovato ${cont} inserzioni, prova a inserire qualche campo`;
+    inserzioni.innerText = `Mi spiace ho trovato ${cont} inserzioni, prova a inserire qualche campo`;
     list.className = "padding";
   } else {
     for (let t = 0; t < jobs.length; t++) {
@@ -128,7 +128,7 @@ function search() {
 
     //controllo per nessun risulato
     if (cont === 0) {
-      inserzioni.innerText = `Mi spiace ho tovato ${cont} inserzioni, prova a modificare i campi`;
+      inserzioni.innerText = `Mi spiace ho trovato ${cont} inserzioni, prova a modificare i campi`;
       list.className = "padding";
     }
   }
